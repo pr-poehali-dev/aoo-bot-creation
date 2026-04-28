@@ -6,9 +6,13 @@ import Monitoring from "./Monitoring";
 import Logs from "./Logs";
 import Attacks from "./Attacks";
 import Settings from "./Settings";
+import Cities from "./Cities";
+import REE from "./REE";
 
 const pages: Record<string, React.ReactNode> = {
   dashboard: <Dashboard />,
+  cities: <Cities />,
+  ree: <REE />,
   stats: <Stats />,
   monitoring: <Monitoring />,
   logs: <Logs />,

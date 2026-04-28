@@ -3,6 +3,8 @@ import Icon from "@/components/ui/icon";
 
 const navItems = [
   { id: "dashboard", label: "Панель управления", icon: "LayoutDashboard" },
+  { id: "cities", label: "Города", icon: "Building2" },
+  { id: "ree", label: "РЗЭ", icon: "Gem" },
   { id: "stats", label: "Статистика", icon: "BarChart3" },
   { id: "monitoring", label: "Мониторинг", icon: "Activity" },
   { id: "attacks", label: "История атак", icon: "Swords" },
